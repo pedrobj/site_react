@@ -1,23 +1,21 @@
-Site teste
-Ferramentas: React + Webpack
-
-Webpack Modules:
-react, react-dom, react-route, react-bootstrap, chartjs (não usei)
+# Site teste
+- Ferramentas : React + Webpack.
+- Webpack Modules: react, react-dom, react-route, react-bootstrap, chartjs (não usei o módulo)
 
 Statistics Page:
 EarlyGame API url: earlygame.net/api/statistics/{site}
 Response: Object {Classe:{id,name,count,icon}}
 
 References:
-https://www.youtube.com/watch?v=MhkGQAoc7bc&list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b
-https://github.com/learncodeacademy/react-js-tutorials/
+https://www.youtube.com/watch?v=MhkGQAoc7bc&list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b - Guia de estrutura
 http://www.chartjs.org/ - ChartJS cru
 https://github.com/jhudson8/react-chartjs - ChartJS for React
 https://facebook.github.io/react/tips/initial-ajax.html - Ajax call
 
-Style:
+Layout & Style:
 bootstrap - http://getbootstrap.com
 
+Structure:
 /*
 * Responsible Layout by Bootstrap
 *<container>
