@@ -2,18 +2,16 @@
 - Ferramentas : React + Webpack.
 - Webpack Modules: react, react-dom, react-route, react-bootstrap, chartjs (não usei o módulo)
 
-Statistics Page:
-EarlyGame API url: earlygame.net/api/statistics/{site}
-Response: Object {Classe:{id,name,count,icon}}
+Boostrap.js e ChartJS no index.html:
+- Intuito foi utilizar um exemplo fora do react com jQuery.
 
-References:
-https://www.youtube.com/watch?v=MhkGQAoc7bc&list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b - Guia de estrutura
-http://www.chartjs.org/ - ChartJS cru
-https://github.com/jhudson8/react-chartjs - ChartJS for React
-https://facebook.github.io/react/tips/initial-ajax.html - Ajax call
+Statistics Page:
+- Utilizei os dados do meu site como base de alguns gráficos.
+- EarlyGame API url: earlygame.net/api/statistics/{site}
+- Response: Object {Classe:{id,name,count,icon}}
 
 Layout & Style:
-bootstrap - http://getbootstrap.com
+- bootstrap - http://getbootstrap.com
 
 Structure:
 /*
@@ -32,4 +30,10 @@ Structure:
 *	<footer></footer>
 *
 */
+
+References:
+https://www.youtube.com/watch?v=MhkGQAoc7bc&list=PLoYCgNOIyGABj2GQSlDRjgvXtqfDxKm5b - Guia de estrutura
+http://www.chartjs.org/ - ChartJS cru
+https://github.com/jhudson8/react-chartjs - ChartJS for React
+https://facebook.github.io/react/tips/initial-ajax.html - Ajax call
 
